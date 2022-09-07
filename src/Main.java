@@ -18,7 +18,7 @@ public class Main {
         }
     }
 
-    protected  static List<Person> generateClients() {
+    protected static List<Person> generateClients() {
         List<Person> clients = new LinkedList<>();
         clients.add(new Person("Harry", "Potter", 22));
         clients.add(new Person("Ron", "Weasley", 5));
